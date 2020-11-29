@@ -292,7 +292,7 @@ void scroll_screen(const uint8_t limit, const bool is_menu) {
 
   void line_to_z(const float &z) {
     current_position.z = z;
-    line_to_current_position(manual_feedrate_mm_s.z);
+    line_to_current_position(manual_feedrate_mm_s);
   }
 
 #endif
